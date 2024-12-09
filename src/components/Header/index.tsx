@@ -26,16 +26,6 @@ const Header = () => {
     window.addEventListener("scroll", handleStickyNavbar);
   });
 
-  // submenu handler
-  const [openIndex, setOpenIndex] = useState(-1);
-  const handleSubmenu = (index) => {
-    if (openIndex === index) {
-      setOpenIndex(-1);
-    } else {
-      setOpenIndex(index);
-    }
-  };
-
   const usePathName = usePathname();
 
   return (
@@ -105,8 +95,8 @@ const Header = () => {
                   }`}
                 >
                   <ul className="block lg:flex lg:space-x-12">
-                    {menuData.map((menuItem, index) => (
-                      <li key={index} className="group relative">
+                    {menuData.map((menuItem) => (
+                      <li key={menuItem.id} className="group relative">
                         {
                           <Link
                             href={menuItem.path}
