@@ -5,8 +5,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import menuData from "./menuData";
 
-import Logo2Image from "~/public/images/logo/logo-2.svg";
-import LogoImage from "~/public/images/logo/logo.svg";
+import LogoImage from "~/public/images/logo/lokomu-logo.svg";
 
 const Header = () => {
   // Navbar toggle
@@ -49,18 +48,11 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src={Logo2Image}
-                  alt="logo"
-                  width={140}
-                  height={30}
-                  className="w-full dark:hidden"
-                />
-                <Image
                   src={LogoImage}
                   alt="logo"
                   width={140}
                   height={30}
-                  className="hidden w-full dark:block"
+                  className="w-full"
                 />
               </Link>
             </div>
