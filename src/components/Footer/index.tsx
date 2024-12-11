@@ -1,6 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import Logo2Image from "~/public/images/logo/logo-2.svg";
+import LogoImage from "~/public/images/logo/logo.svg";
+
 const Footer = () => {
   return (
     <>
@@ -11,14 +14,14 @@ const Footer = () => {
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
-                    src="~/public/images/logo/logo-2.svg"
+                    src={Logo2Image}
                     alt="logo"
                     className="w-full dark:hidden"
                     width={140}
                     height={30}
                   />
                   <Image
-                    src="~/public/images/logo/logo.svg"
+                    src={LogoImage}
                     alt="logo"
                     className="hidden w-full dark:block"
                     width={140}
