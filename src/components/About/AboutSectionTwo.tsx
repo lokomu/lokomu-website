@@ -1,5 +1,8 @@
 import Image from "next/image";
 
+import About2Image from "~/public/images/about/about-image-2.svg";
+import About2DarkImage from "~/public/images/about/about-image-2-dark.svg";
+
 const AboutSectionTwo = () => {
   return (
     <section className="py-16 md:py-20 lg:py-28">
@@ -11,13 +14,13 @@ const AboutSectionTwo = () => {
               data-wow-delay=".15s"
             >
               <Image
-                src="~/public/images/about/about-image-2.svg"
+                src={About2Image}
                 alt="about image"
                 fill
                 className="drop-shadow-three dark:hidden dark:drop-shadow-none"
               />
               <Image
-                src="~/public/images/about/about-image-2-dark.svg"
+                src={About2DarkImage}
                 alt="about image"
                 fill
                 className="hidden drop-shadow-three dark:block dark:drop-shadow-none"

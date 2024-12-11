@@ -5,6 +5,9 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import menuData from "./menuData";
 
+import Logo2Image from "~/public/images/logo/logo-2.svg";
+import LogoImage from "~/public/images/logo/logo.svg";
+
 const Header = () => {
   // Navbar toggle
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -46,14 +49,14 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src="~/public/images/logo/logo-2.svg"
+                  src={Logo2Image}
                   alt="logo"
                   width={140}
                   height={30}
                   className="w-full dark:hidden"
                 />
                 <Image
-                  src="~/public/images/logo/logo.svg"
+                  src={LogoImage}
                   alt="logo"
                   width={140}
                   height={30}
