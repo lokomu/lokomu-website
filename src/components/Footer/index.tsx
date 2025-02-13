@@ -15,16 +15,18 @@ const Footer = () => {
         {/* Logo & Description Section */}
         <div className="mb-12 max-w-[360px] lg:mb-16">
           <Link href="/" className="mb-8 inline-block">
-            <Image
-              src={LogoImage}
-              alt="logo"
-              className="w-full"
-              width={200}
-              height={200}
-            />
+            <div className="h-24 w-24">
+              <Image
+                src={LogoImage}
+                alt="logo"
+                className="w-full"
+                width={300}
+                height={300}
+              />
+            </div>
           </Link>
           <p className="mb-6 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-            Lokomu - Local communities
+            Lokomu - Local Communities
           </p>
 
           {/* Social Icons */}
