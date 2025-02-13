@@ -1,14 +1,12 @@
-import AboutSectionOne from "@/components/About/AboutSectionOne";
-import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Features from "@/components/Features";
-import Hero from "@/components/Hero";
 
 import { Metadata } from "next";
+import { Hero } from "../components/Hero";
 
 export const metadata: Metadata = {
-  title: "Lokomu - Local Communities ",
-  description: "This is home for the startup Lokomu",
-  // other metadata
+  title: "Lokomu - Local Communities",
+  description:
+    "Lokomu is an app for building local communities through shared interests and resources.",
 };
 
 export default function Home() {
@@ -16,8 +14,6 @@ export default function Home() {
     <>
       <Hero />
       <Features />
-      <AboutSectionOne />
-      <AboutSectionTwo />
     </>
   );
 }
