@@ -16,31 +16,68 @@ module.exports = {
 
     screens: {
       xs: "450px",
-      // => @media (min-width: 450px) { ... }
-
       sm: "575px",
-      // => @media (min-width: 576px) { ... }
-
       md: "768px",
-      // => @media (min-width: 768px) { ... }
-
       lg: "992px",
-      // => @media (min-width: 992px) { ... }
-
       xl: "1200px",
-      // => @media (min-width: 1200px) { ... }
-
       "2xl": "1400px",
-      // => @media (min-width: 1400px) { ... }
     },
     extend: {
       colors: {
+        primary: {
+          DEFAULT: "#32a9e9",
+          50: "#e3f5fc",
+          100: "#b8e4f7",
+          200: "#8dd3f1",
+          300: "#64c2ec",
+          400: "#47b5ea",
+          500: "#32a9e9",
+          600: "#2e9bda",
+          700: "#2788c6",
+          800: "#2277b3",
+          900: "#155892",
+        },
+        complementary: {
+          50: "#f8e9e6",
+          100: "#f6ccba",
+          200: "#f1ab8d",
+          300: "#ed8b5e",
+          400: "#eb7339",
+          500: "#e85d0e",
+          600: "#de570a",
+          700: "#d15004",
+          800: "#c34901",
+          900: "#ab3c00",
+        },
+        agreen: {
+          50: "#e4fbf7",
+          100: "#bcf6ea",
+          200: "#8df1dd",
+          300: "#5fe9ce",
+          400: "#45dfc0",
+          500: "#3cd6b4",
+          600: "#37c6a5",
+          700: "#31b493",
+          800: "#2ca284",
+          900: "#268466",
+        },
+        ablue: {
+          50: "#e5e8fc",
+          100: "#bdc6f7",
+          200: "#8da1f1",
+          300: "#5b7de6",
+          400: "#3161d8",
+          500: "#0045ca",
+          600: "#003dc0",
+          700: "#0034b4",
+          800: "#0029a7",
+          900: "#001691",
+        },
         current: "currentColor",
         transparent: "transparent",
         white: "#FFFFFF",
         black: "#121723",
         dark: "#1D2430",
-        primary: "#4A6CF7",
         yellow: "#FBB040",
         "bg-color-dark": "#171C28",
         "body-color": {
