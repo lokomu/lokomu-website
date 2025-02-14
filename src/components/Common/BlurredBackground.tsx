@@ -2,7 +2,7 @@ import { Box } from "@radix-ui/themes";
 import React from "react";
 
 export function BlurredBackground(props: {
-  children: React.ReactElement;
+  children: React.ReactElement<any, string | React.JSXElementConstructor<any>>;
   src: string;
   blur?: number;
   fullHeight?: boolean;
