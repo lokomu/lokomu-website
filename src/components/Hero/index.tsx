@@ -1,11 +1,12 @@
 import { BlurredBackground } from "@/components/Common/BlurredBackground";
 import { LearnMoreButton } from "../Common/LearnMoreButton";
+import config from "~/next.config.js";
 
 export function Hero() {
   return (
     <section id="home" className="z-10 overflow-hidden">
       <BlurredBackground
-        src={"/images/landing.webp"}
+        src={config.basePath + "/images/landing.webp"}
         fullHeight
         blur={10}
         shade="var(--black-a8)"
