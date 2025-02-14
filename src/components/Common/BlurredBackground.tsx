@@ -1,8 +1,8 @@
 import { Box } from "@radix-ui/themes";
-import React from "react";
+import React, { CSSProperties, ReactElement } from "react";
 
 export function BlurredBackground(props: {
-  children: React.ReactElement<any, string | React.JSXElementConstructor<any>>;
+  children: ReactElement<{ style?: CSSProperties }>;
   src: string;
   blur?: number;
   fullHeight?: boolean;
