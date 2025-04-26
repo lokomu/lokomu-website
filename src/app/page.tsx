@@ -1,8 +1,8 @@
 import Features from "@/components/Features";
 
 import { Metadata } from "next";
-import { Hero } from "../components/Hero";
-import { MailingList } from "../components/Common/MailingList";
+import { Hero } from "@/components/Hero";
+import { MailingList } from "@/components/Common/MailingList";
 
 export const metadata: Metadata = {
   title: "Lokomu - Local Communities",
