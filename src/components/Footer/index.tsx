@@ -26,7 +26,7 @@ const Footer = () => {
             </div>
           </Link>
           <p className="mb-6 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-            Lokomu - Local Communities
+            Lokomu - Local communities
           </p>
 
           {/* Social Icons */}

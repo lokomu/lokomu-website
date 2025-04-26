@@ -8,8 +8,8 @@ const Features = () => {
       <section id="features" className="bg-gray-100 py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="Get to know other students"
-            paragraph=""
+            title="Get to know your community"
+            paragraph="We're creating an app for building and connecting with local communities."
             center
           />
 
