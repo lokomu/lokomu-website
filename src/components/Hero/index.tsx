@@ -18,12 +18,12 @@ export function Hero() {
               <div className="mx-auto max-w-[800px] items-center justify-center text-center">
                 <h1 className="mb-6 text-4xl font-extrabold tracking-tight text-white sm:text-5xl md:text-6xl">
                   <span className="animate-fade-in bg-gradient-to-r from-green-400 via-purple-400 to-blue-400 bg-clip-text text-transparent">
-                    Gather. Share. Connect
+                    Discover. Meet. Connect.
                   </span>
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-gray-200 dark:text-body-color-dark sm:text-lg md:text-xl">
-                  Gather with other students. Share your things. Connect as a
-                  community
+                  Discover your community. Meet real people. Connect through
+                  shared interests.
                 </p>
                 <LearnMoreButton />
               </div>

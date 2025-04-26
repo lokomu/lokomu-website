@@ -25,7 +25,8 @@ const featuresData: Feature[] = [
       </svg>
     ),
     title: "Sustainable",
-    paragraph: "Supporting the planet and it's people.",
+    paragraph:
+      "Support the planet and it's people by sharing resources with your neighbors.",
   },
   {
     id: 2,
@@ -69,8 +70,8 @@ const featuresData: Feature[] = [
         </g>
       </svg>
     ),
-    title: "Local",
-    paragraph: "New to the city? Find people that share your interests.",
+    title: "Location based",
+    paragraph: "Find people in your local area that share your interests.",
   },
   {
     id: 3,
@@ -104,7 +105,7 @@ const featuresData: Feature[] = [
       </svg>
     ),
     title: "Bringing people together",
-    paragraph: "We believe in more eye-to-eye contact.",
+    paragraph: "Connect with communities in real life.",
   },
   {
     id: 4,
@@ -136,8 +137,9 @@ const featuresData: Feature[] = [
         </g>
       </svg>
     ),
-    title: "Privacy respecting",
-    paragraph: "All user data is private and will remain so.",
+    title: "We respect your privacy",
+    paragraph:
+      "Your user data belongs to you and will not be collected or sold by us.",
   },
   {
     id: 5,
@@ -179,8 +181,7 @@ const featuresData: Feature[] = [
       </svg>
     ),
     title: "Only real users",
-    paragraph:
-      "Verifying every user, so that you won't have to deal with bots and trolls.",
+    paragraph: "Every user has to verify that they are a real person.",
   },
   {
     id: 6,
@@ -221,8 +222,8 @@ const featuresData: Feature[] = [
         </g>
       </svg>
     ),
-    title: "Community backed",
-    paragraph: "Supported by the people that believe in our work.",
+    title: "Community funded",
+    paragraph: "Supported by the people who believe in our work.",
   },
 ];
 export default featuresData;
