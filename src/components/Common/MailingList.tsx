@@ -1,7 +1,9 @@
 export function MailingList() {
   return (
     <div className="flex flex-col gap-8 bg-gradient-to-br from-agreen-800 to-ablue-800 py-14 text-center sm:py-20">
-      <h2 className="text-3xl font-bold text-white">We're still brewing! 🧪</h2>
+      <h2 className="text-3xl font-bold text-white">
+        We&apos;re still brewing! 🧪
+      </h2>
       <p className="m-auto whitespace-pre-wrap px-4 text-xl text-white">
         Subscribe to our mailing list for updates
       </p>
