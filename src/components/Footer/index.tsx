@@ -31,7 +31,7 @@ const Footer = () => {
 
           {/* Social Icons */}
           <div className="flex items-center justify-center gap-x-3">
-            <Link href="https://instagram.com/lokomuapp">
+            <Link href="https://instagram.com/lokomu_com">
               <InstagramLogoIcon color="red" width="20" height="20" />
             </Link>
             <Link href="https://www.linkedin.com/company/lokomu/">
